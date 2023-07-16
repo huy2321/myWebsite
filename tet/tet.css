@@ -1,0 +1,344 @@
+.headers{
+    display: flex;
+   /* position: absolute; */
+    /* background-color: rgb(0, 0, 0); */
+    color: gray;
+    /* border-radius: 9px; */
+    /* margin: 20px; */
+    font-size: 20px;
+}
+/* .imgo{
+   padding-left: 30px;
+
+    
+} */
+body{
+  margin: 0px 0px;
+}
+
+   
+    .bottom{
+        border-radius: 8px;
+        padding: 30px;
+        background:url(https://vietnam.travel/themes/custom/vietnamtourism/images/bg-red-pattern.png) 50%;
+        background-size: 100px;
+        position: relative;
+        margin: 0;
+        
+        
+    }
+.textbottom{
+        color: white;
+        font-style: oblique;
+        text-align: center;
+       display: inline;
+    }
+
+    .imgmargin{
+        display: flex;
+        justify-content: space-around;
+    }
+    .extension{
+        display: flex;
+        justify-content: space-around;
+        
+        width: 100%;
+        /* padding-top: 36px;
+        padding-right: 1.5em;
+        padding-bottom: 0px;
+        padding-left: 1.5em; */
+    }
+    .textheader{
+        padding: 36px 1.5em 0;
+    }
+    .dropbtn {
+        color: black;
+        background-color: white;
+        padding: 10px;
+        font-size: 15px;
+        border: none;
+        margin-top: 25px;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        border: none;
+        border-bottom: solid 5px transparent;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        /* z-index: 1; */
+        cursor: pointer;
+        font-size: 18px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #fefefe3b;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #4d48484b; 
+        cursor: pointer;
+        border: none;
+    
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+        cursor: pointer;
+      }
+      
+      .dropdown:hover .dropbtn {
+        cursor: pointer;
+        border: none;
+        color: red;
+        /* border-bottom: solid 5px black; */
+      }
+
+
+.wrap2{
+  color: #b2910e;
+}
+.wrap3{
+  background-color: #A5190E;
+  width: 342px;
+  padding: 20px;
+  border-radius: 5px;
+  font: optional;color: white;
+  border: none;
+  margin-top: 10px;
+}
+.W4{
+  width: 300px;
+  padding: 20px;
+  border-radius: 2px;
+}
+.wrap1{
+  display: flex;
+  margin: 20px 100px;
+  
+}
+.D1{
+  margin-left: 100px;
+}
+.W3{
+  margin-left: 100px;
+  width: 30%;
+}
+.search{
+  cursor: pointer;
+  margin-top: 30px;
+}
+.fontsize{
+  font-size: 20px;
+}
+#navbar{
+  width: 100%;
+  /* height: 35px; */
+  background-color: white;
+  display: block;
+  /* box-shadow: 0px 2px 2px rgba(0,0,0,0.5); Đổ bóng cho menu */
+  position: fixed;
+   /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  left: 0; /*Nằm sát bên trái*/
+  z-index: 1000;
+   /*Hiển thị lớp trên cùng*/
+  display: flex;
+}
+
+#myBtn {
+  /* width: 20px;
+  height: 35px; */
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 100000;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: rgb(29, 8, 217);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 7px;
+  -moz-border-radius:100%;
+  -webkit-border-radius: 100%;
+}
+
+#myBtn:hover {
+  background-color: #6764647b;
+}
+.buttons{
+  /* z-index: 8;  */
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 14px; 
+  font-weight: 700;
+  color: rgb(255, 255, 255); 
+  font-family: Nunito; 
+  text-transform: uppercase; 
+  background-color: rgba(255, 137, 0, 0.75); 
+  border-color: rgba(255, 137, 0, 0.75);
+  border-radius: 30px;
+  letter-spacing: 1px; 
+  padding: 10px 30px; 
+  transform: matrix3d(1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1); transform-origin: 50% 50% 0px;
+}
+.buttons span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+
+.buttons:hover span {
+  padding-right: 15px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.banner{
+  padding: 20px;
+}
+
+
+body { margin:0}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+      color: white;
+    position: absolute;
+    text-transform: capitalize;
+    font-family: Anton;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom:70px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+
+}
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.booktourr{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.bloc{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+/* .thuphong:hover{
+  -ms-transform: scale(0.9); 
+  -webkit-transform: scale(0.9) ;
+  transform: scale(0.9); 
+} */
+.toa{
+  font-size: 15px;
+  color: #717171;
+}
+a{
+  text-decoration: none;
+}
+.spans{
+  font-size: 15px;
+  padding: 10px;
+}
+.boder{
+  border: 2px  solid gray  ;
+  transition: transform 0.6s;
+}
+.boder:hover{
+  -ms-transform: scale(0.9); 
+  -webkit-transform: scale(0.9) ;
+ transform: scale(0.9); 
+}
+#pop{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.tob{
+  color: white;
+}
+.late{
+  text-align: center;
+}

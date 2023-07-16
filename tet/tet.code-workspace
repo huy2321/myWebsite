@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/gh"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tet"
+	}
+}

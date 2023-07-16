@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer holiday in Danang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="tet.css">
+    
+    <script src="https://kit.fontawesome.com/5e99a41f23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/5e99a41f23.css" crossorigin="anonymous">
+</head>
+<body> 
+    <div class="headers"> 
+            <div class="banner">
+                <img src="https://webdulichdanang.com/wp-content/uploads/2018/02/logo_sticky.png" alt="" width="180px">
+            </div>
+            <div class="extension">
+                <div class="dropdown">
+                <a href="tet.html"><button class="dropbtn"> <b>Home</b> </button></a>
+                </div>
+                <div class="dropdown" onclick="scrollToElement3()">
+                    <button class="dropbtn"> <b>Tour</b> </button>
+                 </div>
+                 <div class="dropdown" onclick="scrollToElement4()">
+                  <button class="dropbtn"> <b>Vui chơi</b>  </button>
+               </div>
+               <div class="dropdown" onclick="scrollToElement5()">
+                <button class="dropbtn"> <b>Hotels  </b>  </button>
+             </div>
+             <div class="dropdown">
+              <button class="dropbtn"> <b>Trợ giúp</b>  </button>
+              <div class="dropdown-content">
+               <a href="bando.html" >Bản Đồ</a>
+               <a href="#" >Hướng dẫn</a>
+              </div>
+           </div>
+           
+           <div class="search">
+            <a href="../tet/login/login.html" type="icon" style="padding: 50px;"><i class="fa-solid fa-user"></i></a>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div> 
+</div>
+ <div id="pop">
+    <div>
+        <!-- <div class="text">
+            <h1>Du lịch Đà Nẵng</h1>
+            <a href="../tet/booktour/booktour.html ">
+                <button class="buttons"><span>Book tour </span>
+            </button>
+            </a>
+        </div> -->
+         <!-- <img src="https://webdulichdanang.com/wp-content/uploads/2023/02/slider_banahill.jpg" width="100%" alt=""> -->
+         <div class="slideshow-container">
+    
+            <div class="mySlides fade">
+              <img src="https://webdulichdanang.com/wp-content/uploads/2023/02/slider_biendanang.jpg" style="width:100%">
+              <div class="text">
+                    <h1>Du lịch Đà Nẵng</h1>
+                    <a href="../tet/booktour/booktour.html ">
+                        <button class="buttons"><span>Book tour </span>
+                    </button>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://webdulichdanang.com/wp-content/uploads/2023/02/slider_banahill.jpg" style="width:100%">
+              <div class="text">
+                    <h1>Du lịch Đà Nẵng</h1>
+                    <a href="../tet/booktour/booktour.html ">
+                        <button class="buttons"><span>Book tour </span>
+                    </button>
+                    </a>
+                </div>
+            
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://webdulichdanang.com/wp-content/uploads/2023/02/slider_cachep.jpg" style="width:100%">
+              <div class="text">
+                    <h1>Du lịch Đà Nẵng</h1>
+                    <a href="../tet/booktour/booktour.html ">
+                        <button class="buttons"><span>Book tour </span>
+                    </button>
+                    </a>
+                </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+    </div>
+    
+    <div id="text3" class="booktourr">
+        <span >TOUR HOT</span>
+        <p class="toa">Được nhiều người chọn nhất</p>
+      <div class="bloc">
+        <div class="boder">
+            <a href="booktour/booktour.html">
+                <div>
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2017/05/kinh-thanh-hue-537x360.jpg" alt="" width="300vh">
+                </div>
+            </a>
+            <div class="spans">
+                <p>TOUR HUẾ 1 NGÀY TỪ ĐÀ NẴNG</p>
+                <span>750.000 <sup>đ</sup></span>
+            </div>
+        </div>
+        <div class="boder">
+            <a href="booktour/booktour.html">
+                <div>
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2016/07/tour-ba-na-da-nang-537x360.jpg" alt="" width="300vh">
+                </div>
+            </a>
+            <div class="spans">
+                <p>ĐÀ NẴNG – BÀ NÀ HILLS</p>
+                <span>1.190.000 <sup>đ</sup></span>
+            </div>
+        </div>
+        <div class="boder">
+            <a href="booktour/booktour.html">
+                <div>
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2016/08/hoi-an-537x360.jpg" alt="" width="300vh">
+                </div>
+            </a>
+            <div class="spans">
+                <p>ĐÀ NẴNG – NGŨ HÀNH SƠN – HỘI AN</p>
+                <span>400.000 <sup>đ</sup></span>
+    
+            </div>
+        </div>
+        <div class="boder">
+            <a href="booktour/booktour.html">
+                <div>
+                 <img src="https://webdulichdanang.com/wp-content/uploads/2017/02/ngu-hanh-son-537x360.jpg" alt="" width="300vh">
+                </div>
+            </a>
+            <div class="spans" >
+                <p>SƠN TRÀ – NGŨ HÀNH SƠN – HỘI AN  </p>
+                <span>450.000 <sup>đ</sup></span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="text4" class="booktourr">
+        <span>KHU VUI CHƠI</span>
+        <p class="toa">Các điểm vui chơi tại Đà Nẵng</p>
+        <div class="bloc">
+            <div class="boder">
+                <a href="#">
+                    <div>
+                        <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/nha_up_nguoc_da_nang_04-600x400.jpg" alt="" width="300vh">
+                    </div>
+                </a>
+                <div class="spans">
+                    <p>Nhà đảo ngược Đà Nẵng</p>
+                    <span>130.000 <sup>đ</sup></span>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <div>
+                        <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/du_thuyen_song_han_05-600x400.jpg" alt="" width="300vh">
+                    </div>
+                </a>
+                <div class="spans">
+                    <p>Thuyền sông hàn</p>
+                    <span>100.000 <sup>đ</sup></span>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <div>
+                        <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/du_thuyen_da_nang-dragon_03-600x400.jpg" alt="" width="300vh">
+                    </div>
+                </a>
+                <div class="spans">
+                    <p>Thuyền du lịch DANANG DRAGON</p>
+                    <span>200.000 <sup>đ</sup></span>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2019/03/cau-vang-ba-na-hill-400x267.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <p>CÁP TREO BÀ NÀ HILLS+BUFFET TRƯA</p>
+                    <span> 1.040.00 <sup>đ</sup></span>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <br>
+    <div class="booktourr">
+        <div class="bloc">
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/bao_tang_3D_da_nang_02-600x400.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <p>BẢO TÀNG TRANH 3D DANANG</p>
+                    200.000 <sup>đ</sup>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/nui_than_tai_01-600x400.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <span>NÚI THẦN TÀI – GÓI TÍCH <br> LỘC (VÉ + BUFFET)</span> <br>
+                    680.000 <sup>đ</sup>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/nui_than_tai_06-600x400.jpg" alt=""width="300vh">
+                </a>
+                <div class="spans">
+                    <span>
+                        NÚI THẦN TÀI – GÓI PHỔ THÔNG <br> (VÉ VÀO CỔNG)
+                    </span> <br>
+                    390.000 <sup>đ</sup>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/2020/02/nui_than_tai_02-600x400.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <span>
+                        NÚI THẦN TÀI – GÓI DƯỠNG TUỆ PHÁT  <br>THỤ (VÉ VÀO CỔNG SAU 14H)
+                    </span> <br>
+                    350.000 <sup>đ</sup>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="text5" class="booktourr">
+        <span>TOP KHÁCH SẠN</span>
+        <p class="toa">Top khách sạn tốt nhất</p>
+        <div class="bloc">
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/novotel-da-nang-500x333.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <span>
+                        NOVOTEL DANANG PREMIER HAN RIVER
+                    </span> <br>
+                    4.658.000 <sup>đ</sup>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/Dana-Marina-Hotel-500x333.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <span>DANA MARINA HOTEL
+                    </span><br>
+                    700.000 <sup>đ</sup>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/Eco-Green-Boutique-Hotel-500x333.jpg" alt=""  width="300vh">
+                </a>
+                <div class="spans">
+                    <span>
+                        ECO GREEN BOUTIQUE HOTEL
+                    </span> <br>
+                    1.136.000 <sup>đ</sup>
+                </div>
+            </div>
+            <div class="boder">
+                <a href="#">
+                    <img src="https://webdulichdanang.com/wp-content/uploads/mandila-beach-hotel-500x333.jpg" alt="" width="300vh">
+                </a>
+                <div class="spans">
+                    <span>
+                        MANDILA BEACH HOTEL
+                    </span> <br>
+                    1.800.000 <sup>đ</sup>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+ </div>
+
+ <div class="late">
+    <p class="booktourr ">GIỚI THIỆU</p>
+    <img src="images/Ảnh chụp màn hình 2023-07-16 120628.png" alt="">
+ </div>
+
+<div class="bottom" >
+  <div class="textbottom">
+      <h2>READ MORE</h2>
+      <p class="tob">
+        Về Thành Phố Đà Nẵng
+        <a href="https://danangfantasticity.com/ve-da-nang/tong-quan-da-nang.html#:~:text=%C4%90%C3%A0%20N%E1%BA%B5ng%2C%20n%E1%BA%B1m%20%E1%BB%9F%20trung,th%E1%BB%A9%204%20trong%20c%E1%BA%A3%20n%C6%B0%E1%BB%9Bc.">
+             tại đây
+        </a>
+      </p>
+  </div>
+  <div class="imgmargin">
+  <div class="read">
+    <img src="https://statics.vinpearl.com/du-lich-da-nang_1657939501.JPG" alt="" width="1500px" height="500px">
+  </div>
+  </div>
+</div>
+<div class="wrap1">
+  
+  <div class="D1">
+      <h4 class="wrap2">USEFUL LINKS</h4>
+      <p>Visas for Vietnam</p>
+      <p>Beginner Guide</p>
+      <p>FAQs</p>
+      <p>Sitemap</p>
+      <p>News & Media</p>
+      <p>Industry Resources</p>
+  </div>
+  <div class="W3">
+      <h4 class="wrap2">FOLLOW US ON</h4>
+      <div>
+          <!-- <img src="logo/Vietnam tourism social web_4.jpg" alt="">
+          <img src="logo/Vietnam tourism social web-2_4.jpg" alt="">
+          <img src="logo/Vietnam tourism social web-3_6.jpg" alt="">
+          <img src="logo/Vietnam tourism social web-4_4.jpg" alt="">
+          <img src="logo/Vietnam tourism.jpg" alt=""> -->
+      </div>
+      <p>Welcome to the official website of Vietnam National 
+         Administration of Tourism. Visit our social media 
+         pages for more travel inspiration.
+      </p>
+  </div>
+</div>
+
+</div>
+<div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up fa-bounce"></i></button>
+    <script src="tet.js"></script>
+</body>
+</html>
